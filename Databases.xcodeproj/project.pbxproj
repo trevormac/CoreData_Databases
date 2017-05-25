@@ -15,6 +15,7 @@
 		69586FAE1ED75505002BCDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69586FAC1ED75505002BCDA4 /* LaunchScreen.storyboard */; };
 		69586FB91ED75505002BCDA4 /* DatabasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69586FB81ED75505002BCDA4 /* DatabasesTests.swift */; };
 		69586FC41ED75505002BCDA4 /* DatabasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69586FC31ED75505002BCDA4 /* DatabasesUITests.swift */; };
+		69586FD21ED75776002BCDA4 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69586FD11ED75776002BCDA4 /* DatabaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		69586FBF1ED75505002BCDA4 /* DatabasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69586FC31ED75505002BCDA4 /* DatabasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesUITests.swift; sourceTree = "<group>"; };
 		69586FC51ED75505002BCDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69586FD11ED75776002BCDA4 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				69586FA01ED75505002BCDA4 /* AppDelegate.swift */,
+				69586FD11ED75776002BCDA4 /* DatabaseController.swift */,
 				69586FA21ED75505002BCDA4 /* ViewController.swift */,
 				69586FA41ED75505002BCDA4 /* Main.storyboard */,
 				69586FAA1ED75505002BCDA4 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69586FD21ED75776002BCDA4 /* DatabaseController.swift in Sources */,
 				69586FA31ED75505002BCDA4 /* ViewController.swift in Sources */,
 				69586FA91ED75505002BCDA4 /* Databases.xcdatamodeld in Sources */,
 				69586FA11ED75505002BCDA4 /* AppDelegate.swift in Sources */,
